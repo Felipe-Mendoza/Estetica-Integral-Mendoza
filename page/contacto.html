@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contactos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../img/logo.jpg">
+  <link rel="stylesheet" href="../css/estilos.css" />
+</head>
+
+<body>
+  <div class="grid-container">
+    <!--En esta sección defino el espacio para el logo, la barra de navegación y banner-->
+    <header class="header">
+
+      <div class="logo-header">
+        <a href="../index.html"><img src="../img/logo.jpg" alt="logo" /></a>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="../index.html">INICIO</a></li>
+          <li><a href="./servicios.html">SERVICIOS</a></li>
+          <li><a href="./reservacion.html">RESERVACIONES</a></li>
+          <li><a href="./quienesSomos.html">QUIENES SOMOS</a></li>
+          <li><a href="./contacto.html">CONTACTO</a></li>
+        </ul>
+      </nav>
+
+    </header>
+    <!--Cierre sección del espacio para el logo, la barra de navegación y banner-->
+
+    <!--Apertura del main-->
+    <main class="main">
+      <h1 class="cintillo">CONTACTANOS</h1>
+      <div class="formularioPrincipal">
+        <div class="formulario">
+          <form>
+            <section>
+              <label for="nombre" class="colocar_nombre">Nombre *</label>
+              <input type="text" name="introducir_nombre" id="nombre" placeholder="Escribe tu nombre">
+            </section>
+            <section>
+              <label for="telefono" class="colocar_telefono">Teléfono
+              </label>
+              <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+            </section>
+            <section>
+              <label for="email" class="colocar_email">Correo electronico</label>
+              <input type="email" name="introducir_email" id="email" placeholder="Escribe tu email">
+            </section>
+            <section>
+              <label for="mensaje" class="colocar_mensaje">Comentanos tu visita *</label>
+              <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" placeholder="Comentanos tu visita..."></textarea>
+            </section>
+            <input type="submit" name="enviar_formulario" class="boton">
+                          
+            <input type="reset" name="cancelar_formulario" class="boton">
+            <label>Acepto lo terminos y condiciones</label>
+            <input type="checkbox" class="check">
+            <p>
+              * los campos son obligatorios.
+            </p>
+            <div>
+
+              <h3>Tambien nos puedes vistar en nuestro consultorio</h3>
+
+              <p>Santiago de Chile</p>
+              <p>Telefono: 55.55555555</p>
+            </div>
+            <div class="mapa">
+              <iframe class="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d106527.67098697796!2d-70.64453119999999!3d-33.449574399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1658519796543!5m2!1ses!2scl"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" alt="mapaSitio"></iframe>
+            </div>
+          </form>
+
+
+          <!--contacto de whatsapp-->
+          <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp"
+            target="_blank"><img src="../img/whatsapp.png" alt="logoWapp" /></a>
+          <!--fin contacto de whatsapp-->
+        </div>
+
+      </div>
+
+
+    </main>
+    <!--Cierre de main-->
+
+
+    <!--Inicio del footer-->
+
+    <footer class="footer">
+
+      <h2>Puedes pagar a traves de:</h2>
+
+      <img src="../img/webpay.png" width="200px" alt="Metodo de pago">
+
+      <h2>Síguenos en</h2>
+
+      <img src="../img/instagram.png" width="30px" alt="logo instagram">
+      <img src="../img/facebook.png" width="30px" alt="logo facebook">
+      <img src="../img/whatsapp.png" width="30px" alt="logo whatsapp">
+    </footer>
+    <!--Cierre del footer-->
+  </div>
+</body>
+
+</html>

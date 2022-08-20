@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Reservaciones</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../img/logo.jpg">
+  <link rel="stylesheet" href="../css/estilos.css" />
+</head>
+
+<body>
+  <div class="grid-container">
+    <!--En esta sección defino el espacio para el logo, la barra de navegación y banner-->
+    <header class="header">
+
+      <div class="logo-header">
+        <a href="../index.html"><img src="../img/logo.jpg" alt="logo" /></a>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="../index.html">INICIO</a></li>
+          <li><a href="./servicios.html">SERVICIOS</a></li>
+          <li><a href="./reservacion.html">RESERVACIONES</a></li>
+          <li><a href="./quienesSomos.html">QUIENES SOMOS</a></li>
+          <li><a href="./contacto.html">CONTACTO</a></li>
+        </ul>
+      </nav>
+
+    </header>
+    <!--Cierre sección del espacio para el logo, la barra de navegación y banner-->
+
+
+    <!--Apertura del main-->
+    <main class="main">
+      <h1 class="cintillo">HAZ TU RESERVACION AQUI</h1>
+      <div class="formularioPrincipal">
+        <div class="formulario">
+          <form>
+            <section>
+              <label for="nombre" class="colocar_nombre">Nombre *</label>
+              <input type="text" name="introducir_nombre" id="nombre" placeholder="Escribe tu nombre">
+            </section>
+            <section>
+              <label for="telefone" class="colocar_telefono">Teléfono</label>
+              <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+            </section>
+            <section>
+              <label for="email" class="colocar_email">Correo electronico</label>
+              <input type="email" name="introducir_email" id="email" placeholder="Escribe tu email">
+            </section>
+            <section>
+              <label for="servicio">Servicio</label>
+              <select name="servicio">
+                <option value="h">Hidrafacial</option>
+                <option value="m">Mesoterapia</option>
+                <option value="r">Rejuvenecimiento Facial</option>
+              </select>
+            </section>
+            <section>
+              <form>
+                <label for="date">Fecha cita</label>
+                <input type="date" name="date">
+              </form>
+            </section>
+            <section>
+              <label for="mensaje" class="colocar_mensaje">Comentanos tu visita *</label>
+              <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
+                placeholder="Comentanos tu visita..."></textarea>
+            </section>
+            <input type="submit" name="enviar_formulario" class="boton">
+                          
+            <input type="reset" name="cancelar_formulario" class="boton">
+              
+            
+            <label>Acepto lo terminos y condiciones</label>
+            <input type="checkbox" class="check">
+            <p>
+              * los campos son obligatorios.
+            </p>
+
+  </div>
+  <!--contacto de whatsapp-->
+  <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp"
+    target="_blank"><img src="../img/whatsapp.png" alt="logoWapp" /></a>
+  <!--fin contacto de whatsapp-->
+  </main>
+  <!--Cierre del main-->
+
+
+  <!--Inicio del footer-->
+
+  <footer class="footer">
+
+    <h2>Puedes pagar a traves de:</h2>
+
+    <img src="../img/webpay.png" width="200px" alt="Metodo de pago">
+
+    <h2>Síguenos en</h2>
+
+    <img src="../img/instagram.png" width="30px" alt="logo instagram">
+    <img src="../img/facebook.png" width="30px" alt="logo facebook">
+    <img src="../img/whatsapp.png" width="30px" alt="logo whatsapp">
+  </footer>
+  <!--Cierre del footer-->
+  </div>
+</body>
+
+</html>
