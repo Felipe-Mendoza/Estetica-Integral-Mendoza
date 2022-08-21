@@ -105,6 +105,11 @@
     font-size: 50px;
     font-weight: lighter;
     font-family: 'Roboto', sans-serif;
+    animation-name: cintillo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    
 }
 
 /* Eatilos a los videos de servicios*/
@@ -338,6 +343,30 @@ input::checkbox {
    
 }
 /*Fin estilos formularios*/
+/*keyframes */
+
+ @keyframes cintillo {
+    0% {
+        color: white;
+        
+    }
+    25%{
+        color: rgb(215, 230, 10);
+            }
+    50%{
+        color: white;
+       
+    }
+    75%{
+        color:rgb(215, 230, 10);
+     
+    }
+    100%{
+        color: white;
+     
+    }
+} 
+
 
 
 /*MEDIA QUERYS INDEX */
